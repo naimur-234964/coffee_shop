@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #d3ad7f;
-    --secondary-color: ;
+    --secondary-color: #13131a;
     --dark-color: #000;
     --light-color: #fff;
 }
@@ -22,10 +22,23 @@ body {
     color: var(--light-color);
 }
 
+.a {
+    text-decoration: none;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding: 10px 30px;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        letter-spacing: 2px;
+    }
+}
+
 /* Common codes end */
 
 /* Navbar start */
 #navbar {
+    background-color: var(--dark-color);
     border-bottom: .1rem solid rgba(255, 255, 255, .3);
 
     .nav-link {
@@ -66,3 +79,15 @@ body {
 }
 
 /* Navbar end */
+
+/* Header start */
+#header {
+    min-height: 100vh;
+    background: url(../images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .content {}
+}
+
+/* Header end */
