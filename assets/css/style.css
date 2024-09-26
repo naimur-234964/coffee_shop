@@ -6,6 +6,7 @@
     --secondary-color: #13131a;
     --dark-color: #000;
     --light-color: #fff;
+    --text-color: #Ccc;
 }
 
 body {
@@ -20,6 +21,10 @@ body {
 
 .text-light {
     color: var(--light-color);
+}
+
+.text-text {
+    color: var(--text-color);
 }
 
 .a {
@@ -86,8 +91,26 @@ body {
     background: url(../images/home-img.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
-
-    .content {}
 }
 
 /* Header end */
+
+/* About Start  */
+#about{
+    .row {
+        --bs-gutter-x: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .about-section{
+        background-color: var(--secondary-color);
+
+        p{
+            line-height: 1.8;
+        }
+    }
+
+}
+/* About End  */
