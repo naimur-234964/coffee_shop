@@ -1,0 +1,68 @@
+/* Common codes start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root {
+    --primary-color: #d3ad7f;
+    --secondary-color: ;
+    --dark-color: #000;
+    --light-color: #fff;
+}
+
+body {
+    background-color: var(--dark-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--light-color);
+
+    span {
+        color: var(--primary-color);
+    }
+}
+
+.text-light {
+    color: var(--light-color);
+}
+
+/* Common codes end */
+
+/* Navbar start */
+#navbar {
+    border-bottom: .1rem solid rgba(255, 255, 255, .3);
+
+    .nav-link {
+        color: var(--light-color);
+        position: relative;
+        transition: .4s ease-in-out;
+
+        &:hover {
+            color: var(--primary-color);
+
+            &::after {
+                width: 100%;
+            }
+
+        }
+
+        &::after {
+            position: absolute;
+            height: 2px;
+            width: 0;
+            left: 0;
+            bottom: 0;
+            background-color: var(--primary-color);
+            content: "";
+            transition: .4s ease-in-out;
+        }
+    }
+
+    .btn-outline {
+        border-color: var(--primary-color);
+        color: var(--primary-color);
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: var(--light-color);
+        }
+    }
+}
+
+/* Navbar end */
