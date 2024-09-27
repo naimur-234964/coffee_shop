@@ -141,4 +141,33 @@ body {
 /* Menu End*/
 
 /* Products Start */
+#products {
+    .product-card {
+        border: 0.1rem solid rgba(255, 255, 255, .3);
+        transition: .3s ease-in-out;
+        
+        .links {
+            a {
+                font-size: 20px;
+                color: var(--light-color);
+                border: 0.1rem solid rgba(255, 255, 255, .3);
+                text-decoration: none;
+                margin: 0 5px;
+                padding: 10px;
+                transition: .3s linear;
+
+                &:hover{
+                    background-color: var(--primary-color);
+                }
+            }
+        }
+
+        .stars {
+            i {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
+
 /* Products End */
