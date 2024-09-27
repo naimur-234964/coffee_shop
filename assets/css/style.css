@@ -145,7 +145,7 @@ body {
     .product-card {
         border: 0.1rem solid rgba(255, 255, 255, .3);
         transition: .3s ease-in-out;
-        
+
         .links {
             a {
                 font-size: 20px;
@@ -156,7 +156,7 @@ body {
                 padding: 10px;
                 transition: .3s linear;
 
-                &:hover{
+                &:hover {
                     background-color: var(--primary-color);
                 }
             }
@@ -177,7 +177,7 @@ body {
     .review-card {
         border: 0.1rem solid rgba(255, 255, 255, .3);
         transition: .3s ease-in-out;
-        
+
         .user {
             width: 80px;
         }
@@ -189,7 +189,37 @@ body {
         }
     }
 }
+
 /* Review Section End */
 
 /* Contact Section Start */
+#contact {
+    .row {
+        --bs-gutter-x: 0;
+    }
+
+    .contact-section {
+        background-color: var(--secondary-color);
+    }
+
+    .contact-form {
+        .input-box {
+            background-color: var(--dark-color);
+            width: 100%;
+            border: 0.1rem solid rgba(255, 255, 255, .3);
+            padding: 15px 10px;
+        }
+
+        input {
+            background-color: transparent;
+            color: var(--light-color);
+            width: 80%;
+            border: none;
+            outline: none;
+        }
+
+    }
+
+}
+
 /* Contact Section End */
