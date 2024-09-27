@@ -127,10 +127,11 @@ body {
         border: 0.1rem solid rgba(255, 255, 255, .3);
         transition: .3s ease-in-out;
 
-        &:hover{
+        &:hover {
             background-color: var(--light-color);
             color: var(--dark-color);
-            a{
+
+            a {
                 color: var(--dark-color);
             }
         }
