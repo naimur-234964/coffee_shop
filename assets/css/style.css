@@ -258,3 +258,9 @@ body {
 }
 
 /* Blog Section End */
+
+/* Footer Section Start */
+#footer{
+    background-color: var(--secondary-color);
+}
+/* Footer Section End */
