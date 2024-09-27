@@ -260,7 +260,27 @@ body {
 /* Blog Section End */
 
 /* Footer Section Start */
-#footer{
+#footer {
     background-color: var(--secondary-color);
+
+    a {
+        text-decoration: none;
+    }
+
+    .social-links {
+        a {
+            color: var(--light-color);
+            margin: 0 5px;
+            padding: 15px;
+            border: 0.1rem solid rgba(255, 255, 255, .3);
+            transition: .3s ease-in-out;
+
+
+            &:hover {
+                background-color: var(--primary-color);
+            }
+        }
+    }
 }
+
 /* Footer Section End */
