@@ -225,5 +225,36 @@ body {
 /* Contact Section End */
 
 /* Blog Section Start */
+#blog {
+    .blog-card {
+        border: 0.1rem solid rgba(255, 255, 255, .3);
+        overflow: hidden;
+
+        .blog-image {
+            overflow: hidden;
+
+            img {
+                transition: .3s ease-in-out;
+                object-fit: cover;
+            }
+        }
+
+
+        h2 {
+            transition: .3s ease-in-out;
+
+            &:hover {
+                color: var(--primary-color);
+                cursor: pointer;
+            }
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.2);
+            }
+        }
+    }
+}
 
 /* Blog Section End */
