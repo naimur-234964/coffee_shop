@@ -173,5 +173,20 @@ body {
 /* Products End */
 
 /* Review Section Start */
+#review {
+    .review-card {
+        border: 0.1rem solid rgba(255, 255, 255, .3);
+        transition: .3s ease-in-out;
+        
+        .user {
+            width: 80px;
+        }
 
+        .stars {
+            i {
+                color: var(--primary-color);
+            }
+        }
+    }
+}
 /* Review Section End */
