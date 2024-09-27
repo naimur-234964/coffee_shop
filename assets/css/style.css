@@ -39,6 +39,10 @@ body {
     }
 }
 
+.w-35 {
+    width: 35%;
+}
+
 /* Common codes end */
 
 /* Navbar start */
@@ -86,7 +90,7 @@ body {
 /* Navbar end */
 
 /* Header start */
-#header {
+#home {
     min-height: 100vh;
     background: url(../images/home-img.jpeg) no-repeat;
     background-size: cover;
@@ -96,7 +100,7 @@ body {
 /* Header end */
 
 /* About Start  */
-#about{
+#about {
     .row {
         --bs-gutter-x: 0;
         display: flex;
@@ -104,13 +108,33 @@ body {
         margin-right: 0;
         margin-left: 0;
     }
-    .about-section{
+
+    .about-section {
         background-color: var(--secondary-color);
 
-        p{
+        p {
             line-height: 1.8;
         }
     }
 
 }
+
 /* About End  */
+
+/* Menu Start*/
+#menu {
+    .menu-card {
+        border: 0.1rem solid rgba(255, 255, 255, .3);
+        transition: .3s ease-in-out;
+
+        &:hover{
+            background-color: var(--light-color);
+            color: var(--dark-color);
+            a{
+                color: var(--dark-color);
+            }
+        }
+    }
+}
+
+/* Menu End*/
